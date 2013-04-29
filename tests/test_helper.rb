@@ -1,3 +1,9 @@
+# Coversalls must be required and called before 
+# any require in order to make it work properly 
+require 'coveralls'
+Coveralls.wear!
+###############################################
+
 require 'date'
 require 'fileutils'
 require 'logger'
